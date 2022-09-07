@@ -22,12 +22,18 @@ class Entradatexto {
    public static void main(String[] args) {
       String nombre;
       // instancia
+
+      int edad;
       System.out.println("por favor introduce tu nombre bien kawai");
 
       // vamos a obtener el nombre del usuario
 
       nombre = System.console().readLine();
 
-      System.out.println("Hola " + nombre + "bienvenido a tu programita");
+      System.out.println("por favor introduce tu edad : ");
+
+      edad = Integer.parseInt(System.console().readLine());
+
+      System.out.println("Hola " + nombre + "bienvenido a tu programita  tienes " + edad + "primaveras");
    }
 }
